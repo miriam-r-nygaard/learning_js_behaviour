@@ -29,9 +29,11 @@ lightColorBtn.addEventListener("click", () => {
 // samme princip som ovenfor
 // dette er inline styling via JavaScript
 
+//her er min opgave
 girlyPopBtn.addEventListener("click", () => {
   body.style = "background: #ecc8ebff";
 });
+
 // FUNKTIONER
 //funktioner har er navn og skrives funktionens navn() {}
 function greeting() {
