@@ -7,6 +7,17 @@ const getImage = document.getElementById("imagePlaceholder");
 
 changeImgBtn.addEventListener("click", function () {
   if (this.textContent == "Before") {
+    getImage.src = "img/dandelion.png";
+    this.textContent = "Sommer";
+  } else {
+    getImage.src = "img/dandelion2.png";
+    this.textContent = "Efterår";
+  }
+});
+
+/* 
+changeImgBtn.addEventListener("click", function () {
+  if (this.textContent == "Before") {
     getImage.src = "img/before.png";
     this.textContent = "After";
   } else {
@@ -14,6 +25,8 @@ changeImgBtn.addEventListener("click", function () {
     this.textContent = "Before";
   }
 });
+*/
+
 //ændre billedet og knap tekst ved klik
 //changeImgBtn er den der ændres ved klik
 //getImage er billedet der ændres
