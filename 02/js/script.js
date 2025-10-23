@@ -5,6 +5,7 @@ const nightColorBtn = document.getElementById("nightColorBtn");
 //document.getElementById("id") bruges til at hente et specifikt element fra HTML dokumentet
 const lightColorBtn = document.getElementById("lightColorBtn");
 //henter knappen med id lightColorBtn fra HTML dokumentet
+const girlyPopBtn = document.getElementById("girlyPopBtn");
 const body = document.body;
 //henter body elementet fra HTML dokumentet
 
@@ -28,6 +29,9 @@ lightColorBtn.addEventListener("click", () => {
 // samme princip som ovenfor
 // dette er inline styling via JavaScript
 
+girlyPopBtn.addEventListener("click", () => {
+  body.style = "background: #ecc8ebff";
+});
 // FUNKTIONER
 //funktioner har er navn og skrives funktionens navn() {}
 function greeting() {
