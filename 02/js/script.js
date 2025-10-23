@@ -15,11 +15,18 @@ nightColorBtn.addEventListener("click", () => {
 /*varibelsNavn.addEventListener("event", function) bruges til at lytte efter en bestemt hændelse (event)
  på et element (variabelNavn)*/
 //body.style = "background: #121212"; ændrer baggrundsfarven på body elementet til en mørk farve
+// () => {} er en såkaldt arrow function, som er en kortere måde at skrive funktioner på i JavaScript
+// der er begyndes med () fordi addEventListner er også en funktion.
+// når der klikkes på knappen (eventet) udføres koden inde i arrow functionen
+// {} angiver indholdet af funktionen
+// arrow funktionen er den indre funktion her
 
 lightColorBtn.addEventListener("click", () => {
   body.style = "background: #FFFFFF";
 });
 //her ændres baggrundsfarven, knappen med id lightColorBtn ændre body til hvid, når der klikkes på knappen
+// samme princip som ovenfor
+// dette er inline styling via JavaScript
 
 // FUNKTIONER
 //funktioner har er navn og skrives funktionens navn() {}
@@ -39,7 +46,7 @@ function addNumbers(tal1, tal2) {
 }
 //her er en funktion der hedder addNumbers, som tager imod to parametre tal1 og tal2
 //inden i funktionen lægges tal1 og tal2 sammen og gemmes i variablen sum
-//return sum; betyder at funktionen returnerer værdien af sum når den bliver kaldt
+//return sum; betyder at funktionen returnerer værdien af sum når den bliver kaldt (husk den ikke er kaldt endnu)
 
 addNumbers(5, 10);
 //her kaldes funktionen addNumbers med argumenterne 5 og 10
