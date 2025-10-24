@@ -6,12 +6,12 @@ const getImage = document.getElementById("imagePlaceholder");
 //tager fat om billedet og knapper
 
 changeImgBtn.addEventListener("click", function () {
-  if (this.textContent == "Before") {
-    getImage.src = "img/dandelion.png";
-    this.textContent = "Sommer";
-  } else {
+  if (this.textContent == "Sommer") {
     getImage.src = "img/dandelion2.png";
     this.textContent = "Efterår";
+  } else {
+    getImage.src = "img/dandelion.png";
+    this.textContent = "Sommer";
   }
 });
 
